@@ -1,7 +1,8 @@
 body{
     background-color: #FFFBFA;
-    padding: 20px;
+    padding: 20px;  
 }
+/* Navbar CSS */
 .portfolio{
     font-family: "Source Serif 4", serif;
     font-size: 28px;
@@ -44,6 +45,9 @@ body{
     display: block;
     margin: 0 auto;
   }
+
+
+/* Grid Section CSS */
 @media (max-width: 768px) {
     .grid-container {
         grid-template-columns: repeat(2, 1fr);
@@ -61,33 +65,188 @@ body{
     gap: 20px; 
     margin-top: 100px;
     width: 100%;
-  }
+}
   
-  .grid-image {
+.grid-image {
     background-color: #fff;
     overflow: hidden;
     text-align: center;
     transition: transform 0.2s;
-  }
+}
 
   
-  .grid-image img {
+.grid-image img {
     width: 100%;
     height: auto;
-  }
+}
   
-  .grid-image h3 {
+.grid-image h3 {
     font-weight: lighter;
     font-family: "Outfit", sans-serif;
     text-align: left;
     font-size: 1.2em;
     margin: 10px 0;
     color: #281E1B;
-  }
+}
   
-  .grid-image p {
+.grid-image p {
     font-family: "Outfit", sans-serif;
     text-align: left;
     color: rgba(46, 27, 20, 0.62);
     margin-bottom: 10px;
+}
+
+
+.about-section {
+    display: flex;
+    flex-direction: row;
+    padding: 52px 0;
   }
+.blank-space{
+    height:160px;
+    width: 2000px;
+}
+  
+.paragraph {
+    font-family: "Outfit", sans-serif;
+    color: #555;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+/* Highlights Section CSS */
+.highlights-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.highlights-section h2{
+    font-family: "Outfit", sans-serif;
+    font-size: 27px;
+}
+
+.highlights-table{
+    text-align: left;
+    gap: 10px;
+}
+.highlights-table th,td {
+    padding: 2px 90px;
+    font-family: "Outfit", sans-serif;
+  }
+
+.highlights-table th{
+    color: rgba(40, 30, 27, 1);
+}
+.highlights-table td{
+    color: rgba(46, 27, 20, 0.62);
+}
+
+/* Impact Metrics CSS */
+.impact-metrics {
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.impact-metrics td{
+    padding: 0 150px;
+    text-align: left;
+}
+.impact-metrics h2{
+    font-size: 27px;
+    font-family: "Outfit", sans-serif;
+}
+
+.metrics-table {
+    text-align: left;
+    gap: 10px;
+}
+
+.metric h3 {
+    width: 150%;
+    border-top: 1.5px solid rgba(110, 83, 73, 0.2);
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: rgba(40, 30, 27, 1);
+}
+
+.metric p {
+    color: rgba(46, 27, 20, 0.62);
+}
+
+
+/* Testimonial CSS */
+.testimonial-section h2{
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+    font-size: 48px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: "Outfit", sans-serif;
+
+  }
+  
+.testimonial-card {
+    width: 250px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(126, 61, 37, 0.09);
+  }
+.profile{
+    display: flex;
+    align-items: center;
+  }
+
+.profile-text { 
+    display: flex;
+    flex-direction: column; 
+  }
+  
+.testimonial-card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+.testimonial-text {
+    margin-bottom: 10px;
+    border-left: 1.5px solid rgba(110, 83, 73, 0.2);
+  }
+  
+  .client-name {
+    font-weight: bold;
+    display: block;
+    color: rgba(40, 30, 27, 1);
+  }
+  
+  .client-title {
+    font-size: smaller;
+    display: block;
+    color: rgba(46, 27, 20, 0.62);
+  }
+  .designer-container{
+    display: flex;
+    justify-content: center;
+  }
+  .designer-description {
+
+    text-align: center;
+    margin-top: 40px;
+    font-size: 48px;
+    font-family: "Outfit", sans-serif;
+    width: 900px;
+  }
+  
+  
+  
