@@ -49,12 +49,12 @@ body{
 
 /* Grid Section CSS */
 @media (max-width: 768px) {
-    .grid-container {
+    .grid-images {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 @media (max-width: 480px) {
-    .grid-container {
+    .grid-images {
         grid-template-columns: 1fr;
     }
 }
