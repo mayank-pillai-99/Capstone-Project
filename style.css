@@ -302,10 +302,6 @@ form {
   padding: 20px;  
 }
 
-.name-container {
-  display: flex;
-  justify-content: space-between;
-}
 input[type="text"]{
   margin-right: 10px;
 }
@@ -333,7 +329,12 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
-
+#lastname,#firstname{
+  width: 100%;
+}
+.name-container{
+  display: flex;
+}
 
 /* Tablet */
 @media (max-width: 768px) {
