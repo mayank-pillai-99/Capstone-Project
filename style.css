@@ -120,6 +120,7 @@ body {
 }
 
 .highlights-section h2 {
+  margin-top: 0px;
   font-family: "Outfit", sans-serif;
   font-size: 27px;
   margin-right: 1rem; 
@@ -337,16 +338,17 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
-#lastname,#firstname{
-  width: 100%;
+input[type="text"]{
+  width: 140%;
 }
+
 .name-container{
   display: flex;
+  gap:5px;
 }
 
 /* Tablet */
 @media (max-width: 768px) {
-
   .navbar .portfolio {
     font-size: 24px;
   }
@@ -393,8 +395,11 @@ button {
 
 /* Mobile */
 @media (max-width: 480px) {
+  .heading h1{
+    font-size: 40px;
+  }
   .highlights-table th,td {
-  padding: 2px 20px;
+  padding: 2px 10px;
   font-family: "Outfit", sans-serif;
   }
 
@@ -403,8 +408,10 @@ button {
   }
 
   .navbar .nav-items {
-    flex-direction: column;
-    gap: 5px;
+    gap: 10px;
+  }
+  .nav-items a{
+    font-size: 13px;
   }
 
   .heading {
@@ -414,7 +421,12 @@ button {
   .grid-images {
     grid-template-columns: 1fr;
   }
-
+  .highlights-section h2{
+    font-size: 25px;
+  }
+  .impact-metrics h2{
+    font-size: 25px;
+  }
   .metric h3 {
     width: 100%;
   }
@@ -425,10 +437,14 @@ button {
     width: 90%;
   }
 
-  .footer {
-    flex-direction: column;
+  .footer h2{
+    font-size: 15px;
+  }
+  .footer button{
+    display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 10px;
+    height: 25px;
   }
 
   .metrics-table td {
@@ -437,4 +453,10 @@ button {
   .designer-description{
     font-size: 20px;
   }
+}
+@media (max-width:320px){
+  .highlights-table th,td {
+    padding: 2px 2px;
+    font-family: "Outfit", sans-serif;
+    }
 }
