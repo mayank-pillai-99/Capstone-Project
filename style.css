@@ -4,7 +4,7 @@ body {
   padding: 20px;
   margin: 0; 
 }
-/* Navbar CSS */
+
 .portfolio {
   font-family: "Source Serif 4", serif;
   font-size: 28px;
@@ -54,7 +54,6 @@ body {
   margin: 0 auto;
 }
 
-/* Grid Section CSS */
 .grid-images {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -110,7 +109,6 @@ body {
   font-size: 1.2em;
 }
 
-/* Highlights Section CSS */
 .highlights-section {
   width: 100%;
   display: flex;
@@ -145,7 +143,6 @@ td {
   color: rgba(46, 27, 20, 0.62);
 }
 
-/* Impact Metrics CSS */
 .impact-metrics {
   margin-top: 80px;
   width: 100%;
@@ -184,7 +181,6 @@ td {
   color: rgba(46, 27, 20, 0.62);
 }
 
-/* Testimonial CSS */
 .testimonial-section h2 {
   font-family: "Outfit", sans-serif;
   text-align: center;
@@ -269,7 +265,6 @@ td {
   width: 900px;
 }
 
-/* Footer Section */
 .footer {
   margin-top: 50px;
   width: 100%;
@@ -347,7 +342,6 @@ input[type="text"]{
   gap:5px;
 }
 
-/* Tablet */
 @media (max-width: 768px) {
   .navbar .portfolio {
     font-size: 24px;
@@ -393,7 +387,7 @@ input[type="text"]{
   }
 }
 
-/* Mobile */
+
 @media (max-width: 480px) {
   .heading h1{
     font-size: 40px;
