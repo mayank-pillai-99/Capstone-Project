@@ -28,7 +28,6 @@ body {
 .navbar .nav-items {
   font-family: "Outfit", sans-serif;
   font-size: 18px;
-  list-style: none;
   display: flex;
   gap: 15px;
   margin: 0;
@@ -51,7 +50,7 @@ body {
   max-height: 600px;
   width: 100%;
   display: block;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .grid-images {
@@ -63,9 +62,7 @@ body {
 }
 
 .grid-image {
-
   text-align: center;
-  transition: transform 0.2s;
 }
 
 .grid-image img {
@@ -74,7 +71,7 @@ body {
 }
 
 .grid-image h3 {
-  font-weight: lighter;
+  font-weight: 400;
   font-family: "Outfit", sans-serif;
   text-align: left;
   font-size: 1.2em;
@@ -244,7 +241,7 @@ td {
 }
 
 .client-title {
-  font-size: smaller;
+  font-size: 14px;
   display: block;
   margin: 0;
   color: rgba(46, 27, 20, 0.62);
